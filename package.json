@@ -1,0 +1,25 @@
+{
+  "name": "devfest-er-2018",
+  "version": "1.0.0",
+  "description": "repo per workshop Ethereum Blockchain development",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "migrate": "npx truffle migrate --network local",
+    "ganache-cli": "npx ganache-cli -p 8545 -m essay brown conduct rural kidney indicate carpet fabric waste soldier guilt drill",
+    "clean": "rm -rf ./build/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vforvalerio87/devfest-er-2018.git"
+  },
+  "author": "Valerio Versace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vforvalerio87/devfest-er-2018/issues"
+  },
+  "homepage": "https://github.com/vforvalerio87/devfest-er-2018#readme",
+  "devDependencies": {
+    "ganache-cli": "6.2.3",
+    "truffle": "4.1.14"
+  }
+}
