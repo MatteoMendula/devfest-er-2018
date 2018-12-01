@@ -38,7 +38,7 @@ contract CallForIdeas {
         voted[msg.sender] = true;
     }
 
-    function listPitchers() public returns(address[]) {
+    function listPitchers() public view returns(address[]) {
         return pitchers;
     }
 }

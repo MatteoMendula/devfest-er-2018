@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "repo per workshop Ethereum Blockchain development",
   "scripts": {
+    "ganache-cli": "npx ganache-cli -p 8545 -m essay brown conduct rural kidney indicate carpet fabric waste soldier guilt drill",
+    "clean": "rm -rf ./build/*",
     "compile": "npx truffle compile",
     "migrate": "npx truffle migrate --network local",
-    "ganache-cli": "npx ganache-cli -p 8545 -m essay brown conduct rural kidney indicate carpet fabric waste soldier guilt drill",
-    "clean": "rm -rf ./build/*"
+    "pitch": "npx truffle exec ./scripts/pitch.js --network local",
+    "vote": "npx truffle exec ./scripts/vote.js --network local",
+    "count": "npx truffle exec ./scripts/countVotes.js --network local"
   },
   "repository": {
     "type": "git",
